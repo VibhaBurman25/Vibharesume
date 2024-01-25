@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 50vh;
+
+    background-image: url(photos/image2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.horizontal-list{
+list-style: none;
+padding-left: 0px;
+margin: 0px;
+}
+.horizontal-list li{
+display: inline-block;
+margin: 0px 8px 8px 0px;
+
+
+}
+.horizontal-list li a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    transition: 0.8s, border-bottom 4s;
+
+}
+.horizontal-list li a:hover{
+color:palevioletred;
+border-bottom: 1px solid white;
+
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+#my-name{
+font-size: 3rem;
+color: white;
+letter-spacing: 1rem;
+font-weight: 600;
+margin-bottom: 0.8rem;
+
+}
+.social-icon li a i{
+    padding: 10px;
+    font-size: 1rem;
+    color:palevioletred;
+
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    font-style: italic;
+}
+#my-image{
+
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+    margin-top:-18vh ;
+    margin-right: 48rem;
+
+}
+#my-image img{
+    height: 250%;
+    width: 200%;
+    border-radius: 90%;
+    border-image: space;
+}
+
+section{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-style: italic;
+
+}
+
+section:nth-child(2n){
+    background-color: bisque;
+
+}
+section:nth-child(2n+1){
+
+    background-color: coral;
+
+}
+#about_2{
+ margin-top: 10px;
+    width: 40%;
+    display: inline-block;
+}
+#skill-size{
+
+    font-size: 2rem;
+    font-weight: 900px;
+    text-align: center;
+    margin-right: 50%;
+    font-style: italic;
+}
+.section-heading {
+width: auto;
+padding: 10px 20px 10px;
+margin: 10px auto;
+
+
+
+}
+
+.section-heading span{
+ 
+ font-size: 40px;
+display: inline-block;
+ padding-top: 5px;
+ margin-right: 0.5rem ;
+
+}
+
+.skill-display{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom:10px ;
+
+}
+
+.skill-progress{
+      width: 7rem;
+      height: 2rem;
+background-color:  coral;
+border-radius: 0.8rem;
+}
+.skill-name{
+    color: black;
+    font-size: larger;
+    font-weight: 800;
+    font-weight: 800;
+    font-style: italic;
+    border-radius: 0.8rem;
+ border: 4px solid rgb(230, 178, 48);
+}
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
+  background-color:rgb(230, 178, 48);
+  border-radius: 0.9rem;
+}
+.mb-blue{
+background-color: ;
+}
+.skill-progress>div{
+
+
+
+}
+
+.style-1-letter::first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.timeline{
+position: relative;
+width: 75%;
+border:2px
+
+ solid rgb(237, 227, 227);
+}
+
+.time-line-box{
+position: relative;
+width: 40%;
+margin: 5px;
+left:5%;
+min-height: 150px;
+border: 2px solid rgb(221, 211, 211);
+}
+
+.time-line-box:nth-child(2n){
+    left:53%;
+}
+.time-line-box:nth-child(2n+1)::after{
+ content: "";
+ position: absolute;
+ top: 30%;
+ right: -12%;
+ border-radius: 50%;
+ width: 0.5rem;
+ height: 0.5rem;
+ background-color: brown;
+ z-index:1;
+}
+.time-line-box:nth-child(2n)::after{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: -9%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: brown;
+    z-index: 1;
+
+   }
+
+.time-line-divider{
+position: absolute;
+height: 75%;
+width: 0;
+border: 3px dashed white;
+ top:10%;
+ left: 50%;
+}
+
+.timeline-heart p{
+    position:sticky;
+    top:5%;
+    right: 80%;
+}
+.heart{
+}
